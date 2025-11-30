@@ -2,55 +2,73 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <title>δJ Dissipation Principle | Cornelius Aurelius</title>
 
 <!-- SEO -->
-<meta name="description" content="The δJ Dissipation Principle derived and verified by Cornelius Aurelius. Includes scientific derivation, simulation results, decay plots, and verification." />
-<meta name="keywords" content="Cornelius Aurelius, δJ Dissipation, Black Hole Physics, Aurelius Laws, BH Research, Gradient Flow, PDE Model" />
+<meta name="description" content="The δJ Dissipation Principle discovered by Cornelius Aurelius: a new rule governing the natural smoothing of black hole surfaces. Includes simulations, thought experiments, insights, and peer-review invitations." />
+<meta name="keywords" content="Cornelius Aurelius, Aurelius Principles, Black Hole Physics, δJ Dissipation, Event Horizon Theory, PDE Models" />
 <meta name="author" content="Cornelius Aurelius" />
 
 <!-- OpenGraph -->
 <meta property="og:title" content="δJ Dissipation Principle — Aurelius Black Hole Framework" />
-<meta property="og:description" content="Verified δJ dissipation behaviour by Cornelius Aurelius." />
-<meta property="og:type" content="website" />
+<meta property="og:description" content="A new physical principle governing the smoothing and stability of black hole surfaces." />
 <meta property="og:image" content="PASS.png" />
 
 <style>
     body {
         margin: 0;
         background: #000;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #8ecbff;
+        font-family: 'Inter', Arial, sans-serif;
+        color: #bfe6ff;
+        line-height: 1.6;
     }
 
+    /* HERO */
     .hero {
-        height: 40vh;
-        background: radial-gradient(circle at center, #00162c, #000 75%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-bottom: 1px solid #003a66;
-    }
-
-    h1 {
-        color: #00aaff;
-        font-size: 2.7rem;
-        text-shadow: 0 0 15px #0088ff;
+        padding: 60px 20px;
         text-align: center;
+        background: radial-gradient(circle at center, #002040, #000 80%);
+        border-bottom: 1px solid #003b66;
     }
 
+    .hero h1 {
+        font-size: 2.8rem;
+        color: #00c3ff;
+        text-shadow: 0 0 20px #0099ff;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        color: #7fcfff;
+        opacity: 0.9;
+    }
+
+    /* CONTENT WRAPPER */
     .container {
         max-width: 900px;
         margin: auto;
         padding: 40px 20px;
-        background: rgba(0,20,40,0.55);
+    }
+
+    .section {
+        background: rgba(0, 20, 40, 0.6);
         border: 1px solid #004477;
-        border-radius: 10px;
+        border-radius: 12px;
+        padding: 25px;
+        margin-bottom: 35px;
         box-shadow: 0 0 25px #002244;
     }
 
+    .section h2 {
+        color: #00aaff;
+        margin-top: 0;
+        text-shadow: 0 0 10px #0077cc;
+    }
+
+    /* IMAGE */
     .plot-box img {
         width: 100%;
         border: 1px solid #004477;
@@ -58,78 +76,151 @@
         box-shadow: 0 0 15px #0066aa;
     }
 
+    /* LINK LIST */
     a {
         color: #00aaff;
         text-decoration: none;
     }
-
     a:hover {
         text-shadow: 0 0 10px #0099ff;
     }
 
+    /* FOOTER */
     footer {
-        margin-top: 50px;
+        margin-top: 40px;
         padding: 20px;
         text-align: center;
         background: #000814;
         border-top: 1px solid #003366;
+        font-size: 0.9rem;
     }
-
     footer a {
         color: #00aaff;
-        margin: 0 8px;
+        margin: 0 6px;
         text-decoration: none;
     }
-
     footer a:hover {
         text-shadow: 0 0 8px #00aaff;
     }
-</style>
 
+    /* MOBILE */
+    @media (max-width: 600px) {
+        .hero h1 {
+            font-size: 2.2rem;
+        }
+    }
+</style>
 </head>
+
 <body>
 
 <div class="hero">
     <h1>δJ Dissipation Principle</h1>
+    <div class="subtitle">
+        A new smoothing law governing black hole horizon dynamics  
+        discovered by <strong>Cornelius Aurelius</strong>.
+    </div>
 </div>
 
 <div class="container">
-    <p>
-        The <strong>δJ Dissipation Principle</strong> describes the required monotonic decay 
-        of the δJ functional under physically admissible black hole surface evolution.
-        This principle ensures that δJ — defined as the combined norm of surface gradient 
-        and Laplacian — must strictly dissipate over time, reflecting the natural 
-        smoothing behaviour of horizon geometry.
-    </p>
 
-    <h2 style="color:#00aaff; text-shadow:0 0 10px #0077cc;">Simulation Plot</h2>
+    <!-- WHAT IT IS -->
+    <div class="section">
+        <h2>What Is the δJ Dissipation Principle?</h2>
+        <p>
+            The δJ Dissipation Principle states that the combined geometric
+            distortion of a black hole surface — measured through a blend of
+            gradient irregularity and curvature shock — must <strong>always decrease over time</strong>
+            under physically allowed evolution.
+        </p>
 
-    <div class="plot-box">
-        <img src="PASS.png" alt="δJ Dissipation Plot">
+        <p>
+            This acts like a universal “smoothing law,” revealing that black hole
+            surfaces naturally erase chaotic distortions and move toward stability.
+        </p>
     </div>
 
-    <h2 style="color:#00aaff; margin-top:40px;">Verification Result: PASS</h2>
-    <p>
-        δJ decreases rapidly and stabilizes at less than 5% of its initial value, 
-        confirming the validity of the δJ Dissipation Principle under the defined 
-        evolution equation.
-    </p>
+    <!-- THOUGHT EXPERIMENT -->
+    <div class="section">
+        <h2>Thought Experiment: The Wrinkled Horizon</h2>
+        <p>
+            Imagine a black hole not as a smooth sphere, but like a shaken bowl
+            of water — ripples, peaks, and dents everywhere.
+        </p>
+        <p>
+            Classical physics doesn’t tell us how these wrinkles fade.
+        </p>
+        <p>
+            The δJ Dissipation Principle does:
+            it says the “wrinkliness measure” <em>must</em> drain away until the horizon stabilizes.
+        </p>
+        <p>This is brand new. No existing model in astrophysics states this.</p>
+    </div>
 
-    <h3 style="color:#00aaff;">Source Code</h3>
-    <p>
-        Simulation and verification script:  
-        <code>-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb</code>  
-        :contentReference[oaicite:0]{index=0}
-    </p>
+    <!-- WHY IT MATTERS -->
+    <div class="section">
+        <h2>Why This Matters</h2>
+        <p>
+            This principle solves a missing piece in black hole physics:  
+            <strong>How exactly does a distorted event horizon relax back to equilibrium?</strong>
+        </p>
 
-    <h3 style="color:#00aaff; margin-top:30px;">Navigation</h3>
-    <ul>
-        <li><a href="../index.html">⬅ Back to Black Hole Principles Hub</a></li>
-        <li><a href="https://corneliusaurelius.com/" target="_blank">🌐 Main Homepage</a></li>
-    </ul>
+        <p>
+            Scientists know black holes settle into stable shapes, but no accepted
+            mathematical law describes the exact dissipation mechanics.
+        </p>
+
+        <p>
+            δJ provides that missing rule — one that can be computed, simulated, and tested.
+        </p>
+    </div>
+
+    <!-- SIMULATION -->
+    <div class="section">
+        <h2>Simulation Results</h2>
+
+        <div class="plot-box">
+            <img src="PASS.png" alt="δJ Dissipation Plot">
+        </div>
+
+        <p><strong>Verification Result: PASS</strong></p>
+        <p>
+            δJ decreases monotonically until it reaches a stable minimum —
+            exactly as predicted.
+        </p>
+        <p>
+            Full simulation code:  
+            <code>-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb</code>  
+            :contentReference[oaicite:0]{index=0}
+        </p>
+    </div>
+
+    <!-- PEER REVIEW INVITE -->
+    <div class="section">
+        <h2>Peer Review Invitation</h2>
+        <p>
+            Physicists, mathematicians, and researchers are invited to challenge,
+            refine, or expand this principle.  
+        </p>
+        <p>
+            A discovery becomes stronger through open collaboration.
+        </p>
+        <p>
+            Send critiques, questions, or extensions to:  
+            <a href="mailto:138licensing@gmail.com">138licensing@gmail.com</a>
+        </p>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="section">
+        <h2>Navigation</h2>
+        <p><a href="../index.html">⬅ Back to Black Hole Principles Hub</a></p>
+        <p><a href="https://corneliusaurelius.com/" target="_blank">🌐 Main Homepage</a></p>
+    </div>
 
 </div>
 
+<!-- FOOTER -->
 <footer>
     <a href="https://corneliusaurelius.com/" target="_blank">Main Homepage</a> •
     <a href="https://medium.com/@138licensing" target="_blank">Medium</a> •
