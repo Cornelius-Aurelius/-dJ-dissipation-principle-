@@ -1,216 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- SIMULATION VISUAL + DOWNLOAD CENTER -->
+<div class="section">
+    <h2>δJ Dissipation Simulation</h2>
 
-<title>δJ Dissipation Principle | Cornelius Aurelius</title>
+    <!-- IMAGE -->
+    <div class="plot-box">
+        <img src="PASS.png" alt="δJ Dissipation Plot">
+    </div>
 
-<meta name="description" content="The δJ Dissipation Principle discovered by Cornelius Aurelius, complete with downloadable simulation files, code, plots, and verification results." />
-<meta name="keywords" content="Cornelius Aurelius, δJ Dissipation, Black Hole Physics, Aurelius Principles, PDE Simulation" />
-<meta name="author" content="Cornelius Aurelius" />
+    <p><strong>Verification Result: PASS</strong></p>
 
-<style>
-    body {
-        margin: 0;
-        background: #000;
-        font-family: 'Inter', Arial, sans-serif;
-        color: #cce9ff;
-        line-height: 1.6;
-    }
+    <!-- DOWNLOAD BUTTONS -->
+    <h3 style="margin-top:25px; color:#00aaff;">Download Files</h3>
 
-    .hero {
-        padding: 60px 20px;
-        text-align: center;
-        background: radial-gradient(circle at center, #002040, #000 80%);
-        border-bottom: 1px solid #003b66;
-    }
+    <a class="download-btn" 
+       href="-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb" 
+       download>
+       ⬇ Download Colab Notebook (.ipynb)
+    </a>
 
-    h1 {
-        font-size: 2.8rem;
-        color: #00c3ff;
-        text-shadow: 0 0 20px #0099ff;
-        margin-bottom: 10px;
-    }
+    <br><br>
 
-    .subtitle {
-        font-size: 1.2rem;
-        color: #7fcfff;
-        opacity: 0.9;
-    }
+    <a class="download-btn" 
+       href="_bh_law_3_delta_j_dissipation_real.py" 
+       download>
+       ⬇ Download Python Script (.py)
+    </a>
 
-    .container {
-        max-width: 900px;
-        margin: auto;
-        padding: 40px 20px;
-    }
+    <br><br>
 
-    .section {
-        background: rgba(0, 20, 40, 0.6);
-        border: 1px solid #004477;
-        border-radius: 12px;
-        padding: 25px;
-        margin-bottom: 35px;
-        box-shadow: 0 0 25px #002244;
-    }
+    <a class="download-btn" 
+       href="PASS.png" 
+       download>
+       ⬇ Download δJ Dissipation Plot (PASS.png)
+    </a>
 
-    .section h2 {
-        color: #00aaff;
-        text-shadow: 0 0 10px #0077cc;
-        margin-top: 0;
-    }
-
-    .file-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 15px;
-    }
-
-    .file-table th, .file-table td {
-        border: 1px solid #005588;
-        padding: 10px;
-        color: #bfe6ff;
-    }
-
-    .file-table th {
-        background: #003355;
-    }
-
-    .download-btn {
-        display: inline-block;
-        padding: 10px 16px;
-        background: #0077cc;
-        color: #fff;
-        border-radius: 6px;
-        text-decoration: none;
-        box-shadow: 0 0 10px #0077cc;
-    }
-
-    .plot-box img {
-        width: 100%;
-        border-radius: 8px;
-        border: 1px solid #005588;
-        box-shadow: 0 0 18px #0066aa;
-    }
-
-    code {
-        background: #001122;
-        padding: 4px 6px;
-        border-radius: 6px;
-    }
-
-    footer {
-        margin-top: 40px;
-        padding: 20px;
-        text-align: center;
-        background: #000814;
-        border-top: 1px solid #003366;
-    }
-
-    footer a {
-        color: #00aaff;
-        text-decoration: none;
-        margin: 0 8px;
-    }
-</style>
-</head>
-
-<body>
-
-<div class="hero">
-    <h1>δJ Dissipation Principle</h1>
-    <div class="subtitle">Aurelius Black Hole Framework — Verified Simulation</div>
+    <!-- FILE NAME CONFIRMATION -->
+    <p style="margin-top:20px;">
+        Files referenced from repository:<br>
+        <code>-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb</code><br>
+        <code>_bh_law_3_delta_j_dissipation_real.py</code><br>
+        <code>PASS.png</code>
+    </p>
 </div>
-
-<div class="container">
-
-    <!-- PRINCIPLE SUMMARY -->
-    <div class="section">
-        <h2>Overview</h2>
-        <p>
-            The <strong>δJ Dissipation Principle</strong> describes the natural smoothing behavior of black hole horizons.
-            Under the correct physical evolution equation, δJ — measuring combined gradient + curvature distortion —
-            must <strong>monotonically dissipate</strong> toward equilibrium.
-        </p>
-    </div>
-
-    <!-- IMAGE VISIBILITY -->
-    <div class="section">
-        <h2>Verification Plot</h2>
-
-        <div class="plot-box">
-            <img src="PASS.png" alt="δJ Dissipation Plot">
-        </div>
-
-        <p><strong>Verification Result: PASS</strong></p>
-    </div>
-
-    <!-- FILE DOWNLOAD CENTER -->
-    <div class="section">
-        <h2>Download Simulation Files</h2>
-
-        <table class="file-table">
-            <tr>
-                <th>File Name</th>
-                <th>Type</th>
-                <th>Download</th>
-            </tr>
-
-            <tr>
-                <td>-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb</td>
-                <td>Colab Notebook</td>
-                <td><a class="download-btn" href="-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb" download>Download</a></td>
-            </tr>
-
-            <tr>
-                <td>_bh_law_3_delta_j_dissipation_real.py</td>
-                <td>Python Source Code</td>
-                <td><a class="download-btn" href="_bh_law_3_delta_j_dissipation_real.py" download>Download</a></td>
-            </tr>
-
-            <tr>
-                <td>PASS.png</td>
-                <td>Plot Image</td>
-                <td><a class="download-btn" href="PASS.png" download>Download</a></td>
-            </tr>
-        </table>
-
-        <p>
-            Notebook reference:  
-            <code>-BH_LAW_3_DELTA_J_DISSIPATION_REAL.ipynb</code>  
-            :contentReference[oaicite:1]{index=1}
-        </p>
-    </div>
-
-    <!-- INSIGHT SECTION -->
-    <div class="section">
-        <h2>Scientific Insight</h2>
-        <p>
-            This principle provides a mathematical explanation for why black holes settle into smooth, stable configurations.
-            Classical General Relativity predicts stability, but offers no explicit law for how distortions fade.
-        </p>
-        <p>
-            δJ dissipation fills this missing gap in astrophysics.
-        </p>
-    </div>
-
-    <!-- NAVIGATION -->
-    <div class="section">
-        <h2>Navigation</h2>
-        <p><a href="../index.html">⬅ Back to Black Hole Principles Hub</a></p>
-        <p><a href="https://corneliusaurelius.com/" target="_blank">🌐 Main Homepage</a></p>
-    </div>
-
-</div>
-
-<footer>
-    <a href="https://corneliusaurelius.com/" target="_blank">Main Homepage</a> •
-    <a href="https://medium.com/@138licensing" target="_blank">Medium</a> •
-    <a href="mailto:138licensing@gmail.com">138licensing@gmail.com</a> •
-    <a href="https://zenodo.org/records/17362534" target="_blank">Zenodo</a> •
-    <a href="https://www.instagram.com/cornelius_aurelius_/" target="_blank">Instagram</a> •
-    <a href="https://www.linkedin.com/in/cornelius-aurelius-404805325/recent-activity/all/" target="_blank">LinkedIn</a>
-</footer>
-
-</body>
-</html>
